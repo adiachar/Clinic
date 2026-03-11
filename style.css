@@ -2,26 +2,24 @@
    VARIABLES & GLOBAL STYLES
    ========================================================================= */
 :root {
-    --primary-teal: #4F46E5;
-    /* Indigo 600 */
-    --primary-hover: #4338CA;
-    /* Indigo 700 */
-    --light-blue: #EEF2FF;
-    /* Indigo 50 */
-    --light-blue-bg: #E0E7FF;
-    /* Indigo 100 */
-    --text-dark: #1E1B4B;
-    /* Indigo 950 */
+    --primary-teal: #0D9488;
+    /* Modern Teal */
+    --primary-hover: #0F766E;
+    --light-blue: #F0FDF4;
+    /* Extremely light green/blue for background */
+    --light-blue-bg: #E0F2FE;
+    /* Soft Light Blue Accent */
+    --text-dark: #1E293B;
+    /* Slate 800 */
     --text-medium: #475569;
     /* Slate 600 */
     --text-light: #94A3B8;
     /* Slate 400 */
     --bg-white: #FFFFFF;
     --bg-offwhite: #F8FAFC;
-    --bg-teal: #312E81;
-    /* Indigo 900 */
+    --bg-teal: #115E59;
 
-    --shadow-soft: 0 10px 40px -10px rgba(79, 70, 229, 0.15);
+    --shadow-soft: 0 10px 40px -10px rgba(13, 148, 136, 0.15);
     --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.05);
     --shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
 
@@ -838,7 +836,7 @@ h2 {
 .form-group select:focus {
     outline: none;
     border-color: var(--primary-teal);
-    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+    box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.1);
 }
 
 .form-disclaimer {
