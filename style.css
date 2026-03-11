@@ -321,10 +321,6 @@ h2 {
     cursor: pointer;
 }
 
-.mobile-only-link {
-    display: none;
-}
-
 /* =========================================================================
    HERO SECTION
    ========================================================================= */
@@ -1051,12 +1047,13 @@ h2 {
         z-index: 999;
     }
 
-    .mobile-only-link {
-        display: block;
+    .header-book-now {
+        padding: 8px 16px;
+        font-size: 0.9rem;
     }
 
-    .header-book-now {
-        display: none;
+    .nav-actions {
+        gap: 10px;
     }
 
     .hero-container {
