@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmileCare Dental Clinic | Gentle, Modern Dental Care</title>
+    <meta name="description"
+        content="Welcome to SmileCare Dental Clinic - Your trusted local destination for gentle, modern, and affordable dental care for the entire family. Book an appointment today!">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Top Navigation Area -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-tooth text-teal"></i>
+                SmileCare<span>Clinic</span>
+            </a>
+            <nav class="main-nav" id="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Doctor</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <a href="tel:+1234567890" class="btn btn-outline click-to-call-header"><i class="fa-solid fa-phone"></i>
+                    +1 234 567 890</a>
+                <a href="#appointment" class="btn btn-primary">Book Now</a>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. HERO SECTION -->
+        <section id="hero" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge">Top Rated Dental Clinic</span>
+                    <h1>Gentle, Modern Dental Care for Your Family</h1>
+                    <p>Experience pain-free dentistry with our state-of-the-art technology and experienced team. Your
+                        perfect smile starts here.</p>
+                    <div class="hero-buttons">
+                        <a href="#appointment" class="btn btn-primary btn-large">Book Appointment</a>
+                        <a href="tel:+1234567890" class="btn btn-secondary btn-large"><i class="fa-solid fa-phone"></i>
+                            Call Now</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">10k+</span>
+                            <span class="stat-text">Happy Smiles</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-text">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4.9<i class="fa-solid fa-star text-yellow"></i></span>
+                            <span class="stat-text">Google Reviews</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="./assets/hero.png" alt="Modern interior of SmileCare Dental Clinic" class="hero-image">
+                    <div class="floating-card popup-card">
+                        <div class="icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+                        <div>
+                            <h4>100% Safe</h4>
+                            <p>Sterilized Environment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ABOUT THE DOCTOR -->
+        <section id="about" class="about section-padding bg-light">
+            <div class="container about-container">
+                <div class="about-image-wrapper">
+                    <img src="./assets/doctor.png" alt="Dr. Jane Smith, Lead Dentist" class="about-image">
+                    <div class="experience-badge">
+                        <span class="exp-years">15+</span>
+                        <span class="exp-text">Years Of<br>Experience</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div class="section-title-wrapper">
+                        <span class="subtitle">Meet Your Dentist</span>
+                        <h2>Dr. Jane Smith, DDS</h2>
+                        <div class="title-underline"></div>
+                    </div>
+                    <p class="bio">Welcome to SmileCare! With over 15 years of dedicated experience, Dr. Jane Smith
+                        believes in a conservative, patient-first approach. Her goal is to ensure that your visits are
+                        comfortable, pain-free, and result in the healthy, beautiful smile you deserve.</p>
+                    <p class="bio">She constantly updates her skills with the latest advancements in dental technology
+                        to provide top-tier care.</p>
+
+                    <ul class="certifications">
+                        <li><i class="fa-solid fa-check-circle text-teal"></i> DDS, University of Dental Medicine</li>
+                        <li><i class="fa-solid fa-check-circle text-teal"></i> Member of the National Dental Association
+                        </li>
+                        <li><i class="fa-solid fa-check-circle text-teal"></i> Specialist in Implantology & Cosmetic
+                            Dentistry</li>
+                    </ul>
+
+                    <a href="#appointment" class="btn btn-outline">Schedule Consultation</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SERVICES / TREATMENTS -->
+        <section id="services" class="services section-padding">
+            <div class="container">
+                <div class="section-title-wrapper text-center">
+                    <span class="subtitle">Our Treatments</span>
+                    <h2>Comprehensive Dental Services</h2>
+                    <div class="title-underline center"></div>
+                    <p class="section-desc">From routine cleanings to advanced procedures, we offer a full range of
+                        services under one roof.</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service Card 1 -->
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-tooth"></i></div>
+                        <h3>Teeth Cleaning</h3>
+                        <p>Professional scaling and polishing to prevent cavities and maintain healthy gums.</p>
+                    </div>
+                    <!-- Service Card 2 -->
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-x-ray"></i></div>
+                        <h3>Root Canal Treatment</h3>
+                        <p>Painless root canal therapy to save infected or severely decayed teeth.</p>
+                    </div>
+                    <!-- Service Card 3 -->
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-screw-bar"></i></div>
+                        <h3>Dental Implants</h3>
+                        <p>Permanent and natural-looking replacements for missing teeth.</p>
+                    </div>
+                    <!-- Service Card 4 -->
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-regular fa-face-smile-beam"></i></div>
+                        <h3>Teeth Whitening</h3>
+                        <p>Safe and effective treatments to brighten your smile up to 8 shades.</p>
+                    </div>
+                    <!-- Service Card 5 -->
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-teeth-open"></i></div>
+                        <h3>Braces & Aligners</h3>
+                        <p>Straighten your teeth with modern orthodontic solutions including clear aligners.</p>
+                    </div>
+                    <!-- Service Card 6 -->
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-baby"></i></div>
+                        <h3>Pediatric Dentistry</h3>
+                        <p>Gentle child-friendly dental care to keep little smiles healthy and bright.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. WHY CHOOSE US -->
+        <section id="features" class="features section-padding bg-teal text-white">
+            <div class="container">
+                <div class="section-title-wrapper text-center">
+                    <span class="subtitle text-light-blue">Why Choose Us</span>
+                    <h2 class="text-white">The SmileCare Advantage</h2>
+                    <div class="title-underline center white-underline"></div>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon white-bg"><i class="fa-solid fa-user-doctor text-teal"></i></div>
+                        <h4 class="text-white">Experienced Dentist</h4>
+                        <p>Highly qualified professionals dedicated to your care.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon white-bg"><i class="fa-solid fa-microscope text-teal"></i></div>
+                        <h4 class="text-white">Modern Equipment</h4>
+                        <p>State-of-the-art technology for better, painless treatments.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon white-bg"><i class="fa-solid fa-tags text-teal"></i></div>
+                        <h4 class="text-white">Affordable Care</h4>
+                        <p>Transparent pricing and flexible payment options.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon white-bg"><i class="fa-solid fa-truck-medical text-teal"></i></div>
+                        <h4 class="text-white">Emergency Appointments</h4>
+                        <p>Same-day availability for urgent dental issues.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. BEFORE & AFTER SMILE GALLERY -->
+        <section id="gallery" class="gallery section-padding bg-light">
+            <div class="container">
+                <div class="section-title-wrapper text-center">
+                    <span class="subtitle">Transformations</span>
+                    <h2>Smile Gallery</h2>
+                    <div class="title-underline center"></div>
+                    <p class="section-desc">Real results from our happy patients. See the difference we can make.</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <!-- Placeholder image, usually use 2 halves or adjacent for before/after -->
+                            <img src="./assets/hero.png" alt="Teeth Whitening Result">
+                            <div class="gallery-label">Teeth Whitening</div>
+                        </div>
+                    </div>
+                    <div class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="./assets/veneers.png" alt="Veneers Result">
+                            <div class="gallery-label">Porcelain Veneers</div>
+                        </div>
+                    </div>
+                    <div class="gallery-card">
+                        <div class="gallery-img-wrapper">
+                            <img src="./assets/aligners.png" alt="Aligners Result">
+                            <div class="gallery-label">Clear Aligners</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. PATIENT REVIEWS -->
+        <section id="reviews" class="reviews section-padding">
+            <div class="container">
+                <div class="section-title-wrapper text-center">
+                    <span class="subtitle">Testimonials</span>
+                    <h2>What Our Patients Say</h2>
+                    <div class="title-underline center"></div>
+                </div>
+
+                <div class="reviews-wrapper">
+                    <div class="review-card">
+                        <div class="review-rating desc-yellow">
+                            <i class="fa-solid fa-star text-yellow"></i>
+                            <i class="fa-solid fa-star text-yellow"></i>
+                            <i class="fa-solid fa-star text-yellow"></i>
+                            <i class="fa-solid fa-star text-yellow"></i>
+                            <i class="fa-solid fa-star text-yellow"></i>
+                        </div>
+                        <p class="review-text">"I've always been afraid of the dentist, but Dr. Smith and her team made
+                            me feel so comfortable. The root canal was completely painless!"</p>
+                        <div class="reviewer">
+                            <div class="reviewer-avatar">JS</div>
+                            <div class="reviewer-info">
+                                <h5>John Stevenson</h5>
+                                <span>Patient</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-rating desc-yellow">
+                            <i class="fa-solid fa-star text-yellow"></i>
+                            <i class="fa-solid fa-star text-yellow"></i>
+                            <i class="fa-solid fa-star text-yellow"></i>
+                            <i class="fa-solid fa-star text-yellow"></i>
+                            <i class="fa-solid fa-star text-yellow"></i>
+                        </div>
+                        <p class="review-text">"Absolutely the best dental clinic in town. The teeth whitening gave me
+                            so much confidence. Highly recommend their modern facilities."</p>
+                        <div class="reviewer">
+                            <div class="reviewer-avatar">MK</div>
+                            <div class="reviewer-info">
+                                <h5>Maria Kuznetsova</h5>
+                                <span>Patient</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-rating desc-yellow">
+                            <i class="fa-solid fa-star text-yellow"></i>
+                            <i class="fa-solid fa-star text-yellow"></i>
+                            <i class="fa-solid fa-star text-yellow"></i>
+                            <i class="fa-solid fa-star text-yellow"></i>
+                            <i class="fa-solid fa-star-half-stroke text-yellow"></i>
+                        </div>
+                        <p class="review-text">"Got my daughter's braces done here. The staff is so friendly and
+                            accommodating with scheduling. Great experience overall."</p>
+                        <div class="reviewer">
+                            <div class="reviewer-avatar">DP</div>
+                            <div class="reviewer-info">
+                                <h5>David Patel</h5>
+                                <span>Parent</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. APPOINTMENT SECTION -->
+        <section id="appointment" class="appointment section-padding bg-light-blue">
+            <div class="container appointment-container">
+                <div class="appointment-text">
+                    <span class="subtitle">Book Your Visit</span>
+                    <h2>Request an Appointment</h2>
+                    <p>Ready to get that perfect smile? Fill out the form below or call us directly. We will get back to
+                        you to confirm your slot.</p>
+                    <ul class="appointment-benefits">
+                        <li><i class="fa-solid fa-check text-teal"></i> Easy Online Booking</li>
+                        <li><i class="fa-solid fa-check text-teal"></i> Zero Waiting Time</li>
+                        <li><i class="fa-solid fa-check text-teal"></i> Free Initial Consultation</li>
+                    </ul>
+                </div>
+
+                <div class="appointment-form-wrapper">
+                    <form id="booking-form" class="booking-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="+1 234 567 890" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="treatment">Interested Treatment</label>
+                            <select id="treatment" required>
+                                <option value="" disabled selected>Select a treatment</option>
+                                <option value="checkup">General Checkup</option>
+                                <option value="cleaning">Teeth Cleaning</option>
+                                <option value="whitening">Teeth Whitening</option>
+                                <option value="braces">Braces / Aligners</option>
+                                <option value="implants">Implants</option>
+                                <option value="emergency">Emergency / Pain</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Preferred Date</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Confirm Appointment</button>
+                        <p class="form-disclaimer">We will contact you shortly to confirm availability.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. CONTACT SECTION -->
+        <section id="contact" class="contact section-padding">
+            <div class="container">
+                <div class="section-title-wrapper text-center">
+                    <span class="subtitle">Get In Touch</span>
+                    <h2>Contact Information</h2>
+                    <div class="title-underline center"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <h4>Clinic Address</h4>
+                        <p>123 Healthy Smile Avenue,<br>Medical District, NY 10001</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                        <h4>Let's Talk</h4>
+                        <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                        <p>WhatsApp: <a href="https://wa.me/1234567890">+1 (234) 567-890</a></p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+                        <h4>Opening Hours</h4>
+                        <p>Mon - Fri: 9:00 AM - 7:00 PM</p>
+                        <p>Saturday: 9:00 AM - 2:00 PM</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <!-- Google Maps Iframe Placeholder -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.25279991448!2d-74.14448762744837!3d40.69763123337901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1680000000000!5m2!1sen!2s"
+                        width="100%" height="450"
+                        style="border:0; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 9. FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col brand-col">
+                <a href="#" class="logo footer-logo">
+                    <i class="fa-solid fa-tooth text-teal"></i>
+                    SmileCare<span>Clinic</span>
+                </a>
+                <p>Delivering high-quality, gentle dental care to families. Your health and comfort are our top
+                    priorities.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About Doctor</a></li>
+                    <li><a href="#services">Treatments</a></li>
+                    <li><a href="#gallery">Smile Gallery</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Treatments</h4>
+                <ul>
+                    <li><a href="#services">Teeth Cleaning</a></li>
+                    <li><a href="#services">Root Canal</a></li>
+                    <li><a href="#services">Dental Implants</a></li>
+                    <li><a href="#services">Teeth Whitening</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <ul class="contact-list">
+                    <li><i class="fa-solid fa-location-dot"></i> 123 Healthy Smile Ave, NY</li>
+                    <li><i class="fa-solid fa-phone"></i> +1 (234) 567-890</li>
+                    <li><i class="fa-solid fa-envelope"></i> hello@smilecare.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 SmileCare Dental Clinic. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <a href="https://wa.me/1234567890" class="floating-btn whatsapp-btn" aria-label="Chat on WhatsApp" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
